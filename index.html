@@ -91,6 +91,7 @@
             if (isMusicPlaying) { bgAudio.pause(); isMusicPlaying = false; }
             else { bgAudio.play(); isMusicPlaying = true; }
 
+            
             const icon = document.getElementById('music-icon');
             const label = document.getElementById('music-label');
             icon.innerText = isMusicPlaying ? "⏸" : "▶️";
